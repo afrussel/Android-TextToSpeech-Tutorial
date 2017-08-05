@@ -35,8 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         textView = (TextView) findViewById(R.id.textView);
         button.setOnClickListener(this);
 
-        // a long article. contains more than 5000 characters
-        text = getString(R.string.article);
+        text = getString(R.string.short_article); //R.string.long_article also available in string file
 
         //TextToSpeech engine can't speak a text more than 4000 characters
         //So we have to split the long article and then precess the text chunks
