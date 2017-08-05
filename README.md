@@ -32,4 +32,4 @@ for(int i=0; i<paragraphList.length; i++) {
 Here `paragraphList` is an array of `String`. I split my long article into some chunks. `paragraphList` array contains all chunks of paragraph.
 `TextToSpeech` engine speak them one by one.
 
-For more understanding clone the project and run.
+For more understanding (like speak finish callback) clone the project and run.
